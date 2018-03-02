@@ -5,5 +5,6 @@ resource "aws_vpc" "test-vpc" {
   
   tags {
     Name = "HelloWorld"
+    Description = "Test VPC"
   }
 }
